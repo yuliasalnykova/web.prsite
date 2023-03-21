@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>.</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+  <div class="container fixed-top shadow-sm rounded">
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#"><img src="./images/logo-removebg-preview.png" id="logo"></a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Головна сторінка <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Про нас</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Активності</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Контакти</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Мій аккаунт</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <div class="container" id="heading">
+    <p><img src="./images/girl-removebg-preview.png" id="girl"></p>
+    <h2 class="font-weight-bolder">Ibank пропонує тобі доєднатись до нашої спеціальної пропозиції.</h2>
+    <h5 id="offer">Ми надаємо тобі час та активність, яку ти хочеш відвідати. <br>
+      Ти - пропонуєш взамін послугу, яку можеш зробити для нас. </h5>
+    <button id="cta">Запропонувати послугу</button>
+  </div>
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <h5 class="text-center font-weight-bolder" id='whatwe'>Що ми пропонуємо?</h5>
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./images/courses.jpg" class="d-block w-100" alt="Курси іноземних мов">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Курси іноземних мов</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/masage.png" class="d-block w-100" alt="Масаж">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Масаж</h5>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/voleyball.png" class="d-block w-100" alt="Спортивна секція">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Спортивні секції</h5>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only"></span>
+    </button>
+  </div>
+
+  <div class="container" id="cards">
+    <h3 class="text-center text-white">Наші учасники кажуть...</h3>
+    <div class="d-flex flex-row mb-3">
+      <div class="card" style="width: 340px;">
+        <img src="./images/girl-in-red-3.jpg" class="card-img-top" alt="Анна, HR-specialist">
+        <h4 class="text-center">Анна, HR-specialist</h4>
+        <div class="card-body">
+          <p class="card-text" style="width: 280px;">Долучившись до цієї пропозиції я змогла підтягнути рівень своєї
+            іспанської, та найбільше мені сподобалось те, що після відвідування курсів 
+            <b>я волонтерила та допомагала літнім людям, що і було моєю "відплатою" за безкоштовні уроки.</b>
+          </p>
+        </div>
+      </div>
+      <div class="card" style="width: 340px;">
+        <img src="./images/men.jpg" class="card-img-top" alt="Віталій, Project-manager">
+        <h4 class="text-center">Віталій, Project-manager</h4>
+        <div class="card-body">
+          <p class="card-text" style="width: 280px;">Я завжди мріяв відвідувати волейбольну секцію, аж тут трапилась
+            така можливість.
+            <b>Взамін я допомагаю банку з пошуком спеціалістів для їхнів проектів, а також допомагаю з їх
+              реалізацією.</b>
+          </p>
+        </div>
+      </div>
+      <div class="card" style="width: 340px;">
+        <img src="./images/g3.jpg" class="card-img-top" alt="Ілона, English teacher">
+        <h4 class="text-center">Ілона, English teacher</h4>
+        <div class="card-body">
+          <p class="card-text" style="width: 280px;">Часто після робочого дня хочеться порелаксувати на масажі і Ibank
+            дає тобі таку можливість.
+            <b>Натомість я з радістю проводжу уроки англійської мови для працівників банку, що і є моєю пропозицією.</b>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <form class="w-50 container-fluid" id="form">
+    <h3 class="text-center">Заповни анкету для участі прямо зараз і ми тобі зателефонуємо!</h3>
+    <div class="form-row ">
+      <div class="form-group col-md-3">
+        <label for="inputEmail4">Ім'я</label>
+        <input type="text" class="form-control" id="name" placeholder="Павло">
+      </div>
+      <div class="form-group col-md-3">
+        <label for="inputPassword4">Прізвище</label>
+        <input type="text" class="form-control" id="surname" placeholder="Павлюк">
+      </div>
+    </div>
+    <div class="form-group w-100">
+      <label for="inputAddress">e-mail</label>
+      <input type="email" class="form-control" id="inputAddress" placeholder="bankua@gmail.com">
+    </div>
+    <div class="form-group w-100">
+      <label for="inputCity">Номер телефону</label>
+      <input type="text" class="form-control" id="phonenumb" placeholder="+380 - ( . . ) - ( . . . ) - ( . . . . )">
+    </div>
+    <div class="form-group">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck">
+        <label class="form-check-label" for="gridCheck">
+          Я дозволяю Ibank обробляти свої конфіденційні дані
+        </label>
+      </div>
+      <button type="submit" class="btn btn-primary" id="cta">Зареєструватись</button>
+    </div>
+  </form>
+
+
+  <footer class="pt-4" id="footer">
+    <div class="row">
+      <div class="col-6 col-md">
+        <h2>ibank</h2>
+        <small class="d-block mb-3 text-muted">© 2017-2023</small>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Меню</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">Головна сторінка</a></li>
+          <li><a class="text-muted" href="#">Про нас</a></li>
+          <li><a class="text-muted" href="#">Активності</a></li>
+          <li><a class="text-muted" href="#">Контакти</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Зв'яжіться з нами</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">instagram: ibank_ua</a></li>
+          <li><a class="text-muted" href="#">facebook: ibank_ua</a></li>
+          <li><a class="text-muted" href="#">+380-(00)-(000)-(0000)</a></li>
+          <li><a class="text-muted" href="#">ibank_ua@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

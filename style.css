@@ -1,0 +1,85 @@
+body{
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,0.7036064425770308) 0%, rgba(9,9,121,0.7008053221288515) 46%, rgba(0,212,255,0.5859593837535014) 100%);
+}
+
+#logo{
+    width: 48px;
+}
+
+.nav-item{
+    margin-left: 100px;
+}
+
+#girl{
+    width: 500px;
+    float: right;
+}
+
+h2{
+    width: 784px;
+    height: 135px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: normal;
+}
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+#offer{
+    margin-top: 36px;
+    width: 580px;
+    height: 84px;
+}
+
+#whatwe{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing:1ch;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+
+#heading{
+   padding-left: 60px;
+   padding-top: 160px;
+}
+
+#cta{
+    width: 232px;
+    height: 44px;
+    border-radius: 45px;
+    border-color: hsba(259, 58%, 44%, 1);
+    background-color: white;
+    margin-top: 36px;
+    margin-bottom: 12px;
+    color:rgb(25, 25, 105);
+}
+
+
+#carouselExampleCaptions{
+    margin-left: 320px;
+    width: 900px;
+    margin-top: 360px;
+}
+
+
+
+form{
+    margin-top: 320px;
+    background: #f9f9f9;
+}
+
+
+#cards{
+    margin-top: 320px;
+    margin-left: 240px;
+}
+
+
+footer{
+    background-image: url(https://walldeco.ua/img/gallery/29/thumbs/thumb_l_nfi_01662.jpg);
+    margin-top: 320px;
+    color: aliceblue;
+}
